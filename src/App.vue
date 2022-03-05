@@ -2,7 +2,7 @@
 // import module from './components/module.vue'
 import { ref, reactive, onMounted } from 'vue'
 const api_key = ref('f3c0bb8f23f9c29eb54d6eba4661e040')
-const url_base = ref('http://api.openweathermap.org/data/2.5/')
+const url_base = ref('https://api.openweathermap.org/data/2.5/')
 const query = ref('')
 const weather = ref({})
 
